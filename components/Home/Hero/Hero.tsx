@@ -1,6 +1,7 @@
 'use client';
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import Typewriter from 'typewriter-effect';
 import { BsArrowRight } from 'react-icons/bs';
 import ParticlesHero from './ParticalBackground';
@@ -46,14 +47,15 @@ const Hero = () => {
 
              </span>
           </h2>
-          <button 
-           data-aos="fade-up" 
-           data-aos-delay="600" 
-           className='mt-6 px-10 bg-gray-800 hover:bg-gray-900 transition-all duration-300
-          cursor-pointer rounded-full text-lg font-medium'>
+              <Link 
+               href="#works"
+               data-aos="fade-up" 
+               data-aos-delay="600" 
+               className='mt-6 px-10 bg-gray-800 hover:bg-gray-900 transition-all duration-300
+              cursor-pointer rounded-full text-lg font-medium'>
                 <span>See my Work</span>
                 <BsArrowRight className='w-5 h-5 ml-2 inline-block'/>
-          </button>
+              </Link>
         </div>
     </div>
   )

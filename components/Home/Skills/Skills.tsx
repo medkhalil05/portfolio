@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { FaJava } from 'react-icons/fa'
-import { SiJavascript, SiNextdotjs, SiNodedotjs, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si'
+import { SiAnsible, SiDocker, SiJavascript, SiJenkins, SiKubernetes, SiNextdotjs, SiNodedotjs, SiReact, SiTailwindcss, SiTerraform, SiThemoviedatabase, SiTypescript , SiSqlite, SiApachecassandra} from 'react-icons/si'
 import Tilt from 'react-parallax-tilt';
 const skills= [
     {
@@ -39,7 +39,43 @@ const skills= [
         icon: <SiTypescript/>,
         pourcentage: 70,
     },
-    
+    {
+        name: 'Docker',
+        icon: <SiDocker />,
+        pourcentage: 70,
+    },
+    {
+        name: 'Kubernetes',
+        icon: <SiKubernetes/>,
+        pourcentage: 60,
+    }
+    ,
+    {
+        name: 'Jenkins',
+        icon: <SiJenkins />,
+        pourcentage: 70,
+    },
+    {
+        name: 'Terraform',
+        icon: <SiTerraform />,
+        pourcentage: 70,
+    },
+    {
+        name: 'ANSIBLE',
+        icon: <SiAnsible />,
+        pourcentage: 70,
+    },
+    {
+        name: 'Sql',
+        icon: <SiSqlite />,
+        pourcentage: 70,
+    },
+    {
+        name: 'No SQL',
+        icon: <SiApachecassandra />,
+        pourcentage: 60,
+    },    
+
 ]
 
 const Skills = () => {

@@ -22,8 +22,8 @@ const Hero = () => {
           <h1 data-aos="fade-up" 
           data-aos-delay="200" 
           className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-blob tracking-wide'>
-            Creating web product, brands, <br />
-            <span className='text-gray-500'> and experiences.</span>
+           Final-year student specializing in   <br />
+            <span className='text-gray-500'> Full-Stack development and DevOps engineering</span>
           </h1>
           <h2 data-aos="fade-up" 
           data-aos-delay="400" 

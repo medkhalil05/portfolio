@@ -24,11 +24,11 @@ export const NavLinks = [
         url : "#skills",
         Label : "Skills",
     },
-    { 
+    /*{ 
         id : 6,
         url : "#testimonials",
         Label : "Testimonials",
-    },
+    },*/
     {
         id : 7,
         url : "#contact",

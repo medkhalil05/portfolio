@@ -22,10 +22,10 @@ const projects = () => {
             height={650} 
             className='rounded-lg' />
             <h1 className='mt-4 text-xl sm:text-2xl font-semiblod text-white'>
-                Modern Finance Dashboard UI/UX Design
+                Library Management System (Stage PFE Al-Jisr)
             </h1> 
             <h1 className='mt-2 font-medium text-white/80'>
-                    App , UI/UX
+                   Web App , JEE 
             </h1>
         </div>
          {/*project 2*/}
@@ -41,10 +41,10 @@ const projects = () => {
             height={650} 
             className='rounded-lg' />
             <h1 className='mt-4 text-xl sm:text-2xl font-semiblod text-white'>
-                Portfolio Website for Creatives
+                Bubber Dinner Website 
             </h1> 
             <h1 className='mt-2 font-medium text-white/80'>
-                    Branding , Motion
+                    Microservices, DDD & DevOps CI/CD
             </h1>
         </div>
          {/*project 3*/}
@@ -60,10 +60,10 @@ const projects = () => {
             height={650} 
             className='rounded-lg' />
             <h1 className='mt-4 text-xl sm:text-2xl font-semiblod text-white'>
-                Branding Identity for Startups
+                University Residence Management Application
             </h1> 
             <h1 className='mt-2 font-medium text-white/80'>
-                    Branding , UI/UX
+                  Web  , Spring Boot & React
             </h1>
         </div>
          {/*project 4*/}
@@ -79,10 +79,10 @@ const projects = () => {
             height={650} 
             className='rounded-lg' />
             <h1 className='mt-4 text-xl sm:text-2xl font-semiblod text-white'>
-                SaaS Dashboard Development
+                Python Automation App
             </h1> 
             <h1 className='mt-2 font-medium text-white/80'>
-                    Apps , UI/UX
+                Jenkins, Docker, Kubernetes, Ansible, Terraform , AZURE cloud
             </h1>
         </div>
       </div>

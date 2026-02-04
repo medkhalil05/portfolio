@@ -65,10 +65,10 @@ const Contact = () => {
              {/* Text Section */}
              <div>
                 <h1 className='text-3xl sm:text-4xl lg:text-5xl font-bold text-white'>
-                    Schedule a call with me to see if I can help
+                    Looking for my PFE Internship
                 </h1>
                 <p className='text-gray-300 mt-6 text-base sm:text-lg'>
-                    Reach out to discuss your project, ask questions, or just say hello. I'm here to help you bring your ideas to life and achieve your goals.
+                    I’m a final-year student specializing in Full-Stack & DevOps. Contact me to discuss potential internship opportunities.
                 </p>
                 {/* Contact Info */}
                 <div className='mt-7'>
@@ -93,21 +93,20 @@ const Contact = () => {
                 </div>
                 {/* Social Media Links */}
                 <div className='flex items-center space-x-3 mt-8'>
-                    <div className='w-14 h-14 bg-green-950 rounded-full flex items-center 
-                            justify-center cursor-pointer flex-col hover:bg-bleu-800 
-                            transition-all duration-300'>
-                        <FaFacebookF className='text-white w-6 h-6' />
-                    </div>
+                    <a href="https://www.linkedin.com/in/mohamed-khalil-aboussaad-8a7ba5312/" target="_blank" rel="noopener noreferrer">
                     <div className='w-14 h-14 bg-green-950 rounded-full flex items-center 
                             justify-center cursor-pointer flex-col hover:bg-bleu-800 
                             transition-all duration-300'>
                         <LiaLinkedin className='text-white w-6 h-6' />
                     </div>
+                    </a>
+                    <a href="https://github.com/medkhalil05" target="_blank" rel="noopener noreferrer">
                     <div className='w-14 h-14 bg-green-950 rounded-full flex items-center 
                             justify-center cursor-pointer flex-col hover:bg-bleu-800 
                             transition-all duration-300'>
                         <GrGithub className='text-white w-6 h-6' />
                     </div>
+                    </a>
                 </div>
              </div>
              {/*form */}
